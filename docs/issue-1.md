@@ -14,42 +14,8 @@
 
 为了配合世界读书日，语雀还邀请了一些互联网知名人士，写下他们的推荐书单，比如蚂蚁金服 CTO 的[程立](https://yuque.com/book-academy/2018/lusu?utm_source=ruanyifeng.com)。
 
-## 新闻
-
-1、[Instagram](https://www.macrumors.com/2018/04/04/instagram-disables-third-party-app-apis/) 和 [Twitter](https://blog.twitter.com/developer/en_us/topics/tools/2017/announcing-more-functionality-to-improve-customer-engagements-on-twitter.html) 限制第三方调用 API
-
-4月4日，Instagram 无预警地宣布，立即废止一大批 [API](https://www.instagram.com/developer/changelog/)，像用户的 follower、like 等数据都无法再拿到了。同时宣布，每个用户的每小时 API 请求数量限制，从 5000 降低为 200。另外，还计划从2018年12月11日起，不再允许第三方 App 获取它的公开内容。
-
-稍早，Twitter 也宣布，2018年6月19日之后，将不再提供 streaming services，这意味着第三方客户端 Tweetbot、Tweetings、Twitterrific 将无法自动刷新时间轴，必须用户自己手动刷新，才能看到新内容。有人做了一个网站 [apps-of-a-feather.com](http://apps-of-a-feather.com/) 呼吁 Twitter 改变这个决定。
-
-这些大型社交媒体想要表达的意思已经很清楚了：我们不欢迎第三方客户端。
-
-2、[程序员月薪 7 万可落户北京](https://www.zhihu.com/question/269506059)
-
-3月21日，北京市发布《关于优化人才服务促进科技创新推动高精尖产业发展的若干措施》，其中有这样一条内容：
-
-> 在本市行政区域内的高新技术企业、创新型总部企业、新型研发机构等科技创新主体中承担重要工作，近3年每年应税收入超过上一年度全市职工平均工资一定倍数的（企业注册在城六区和北京经济技术开发区的为8倍，注册在本市其他区域的为6倍）。
-
-根据北京市统计局、市人力社保局发布数据，2016年度北京市职工年平均工资为92477元，月平均工资为7706元。而近日某招聘网站新鲜出炉的《2018旺季人才趋势报告》中显示，北京市平均月薪达到10712元。由此估算出月薪至少要 7 万可申请办理人才引进。
-
-3、[Travis-CI 的离奇错误清空生产数据库](https://blog.travis-ci.com/2018-04-03-incident-post-mortem)
-
-Travis-CI 公布了3月13日生产数据库出错的调查报告。一个开发者执行了生产环境的检查以后，在同一个 Session 里面运行测试。由于数据库地址是环境变量给出的，这时 Session 里面的数据库地址的环境变量指向生产环境，导致测试脚本清空了生产环境的数据库。
-
-4、[硅谷房价每个工作日上涨800美元](https://www.bloomberg.com/news/articles/2018-04-09/home-values-are-rising-by-800-a-day-in-san-jose)
-
-根据统计，距离硅谷最近的大城市圣何塞，去年100万美元左右的普通房屋，每个工作日价格上涨798美元，一年上涨了20万美元，是全美房价上涨之冠。亚军是旧金山，每个工作日上涨481美元；季军是西雅图（微软总部所在地），上涨434美元。
 
 ## 教程
-
-1、[免费电子书] [《Machine Learning Yearning》](http://www.mlyearning.org/)，by 吴恩达
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042302.png)
-
-吴恩达（Andrew Ng）是斯坦福大学的教授，人工智能领域的权威，曾经担任过百度的首席科学家。
-
-他的新书《Machine Learning Yearning》现在可以[免费订阅](http://www.mlyearning.org/)。今后几个月里面，他每完成一个部分，你就会得到邮件通知，可以立即读到。根据说明，这本书大概100页左右，每章的长度很短，非常容易阅读。内容主要关于如何实现你自己的机器学习项目，重点不是算法，而是如何运用算法到真实项目。
-
 2、[免费视频教程] [《Foundations of Data Science》](https://data.berkeley.edu/education/data-8x)，by 加州大学伯克利分校
 
 ![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042303.png)
@@ -69,7 +35,7 @@ Travis-CI 公布了3月13日生产数据库出错的调查报告。一个开发�
 
 4、[文章] [Low Level Bit Hacks You Absolutely Must Know](http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/), by Peter Krumins
 
-位运算（bit operation）的用途，有很多例子。
+位运算（bit operation）的用途，有很多例子。很底层的言语的变换作用
 
 5、[文章] [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
 
@@ -107,21 +73,7 @@ React 官方关于 React 原始设计思想的解释。
 
 > SQLite 不使用 [Git](https://git-scm.org/) 版本控制系统，而是使用 [Fossil](https://fossil-scm.org/)。Fossil 和 Git 都是区块链式的版本控制系统，都是分布式，都将内容存储为由加密哈希标识的一系列不可变的提交。Git 非常流行，许多开发人员不熟悉其他任何版本管理工具。然而，SQLite 更喜欢Fossil，本文解释为什么。
 
-3、[美国的数据真相](https://mp.weixin.qq.com/s?__biz=MzI2NjA3ODk2MA%3D%3D&from=1084195010&idx=4&mid=2650848195&sn=7399ea1a80effc77cd2f788373b412d4&weiboauthoruid=5493934570&wm=9006_2001)
 
-> 美国人均预期寿命连续两年下降。如果不告诉你国家名字，只是让你猜测的话，你一定会认为，这发生在某个战乱中的国家。不幸的是，这种事情恰恰就发生在美国。
-> 
-> 2016年，零资产或者负资产家庭已经达到30.4%。也就是说，只要你有一块钱存款而么有负债，即使你是个流浪汉，你也比30%的美国家庭富有。
-> 
-> 美国人到底有多穷？69%的美国人，存款少于1000美元。好多人说美国人很富有，确实，如果你找到了一个好职业，你的收入会很高很高。但是实际上，绝大多数美国人很穷，只能靠救济和福利过活。一半的美国人，他们的年平均收入低于25000美元。美国平均收入40000多，中位数收入只有25000美元。中位数是什么意思？50%收入高于这个数字，50%收入低于这个数字。
-
-4、[《环球时报》：发展国产芯片 这事不能再拖了](http://finance.sina.com.cn/stock/y/2018-04-18/doc-ifzfkmth6405788.shtml)
-
-> 从现在起，我们可以靠美国芯片活得很好的幻想应该破灭了。中国有组织科技攻关的能力，也有推动国产芯片逐渐替代外来芯片所需要的动员力，最重要的就是决心。
-> 
-> 特朗普政府在帮助我们下这个决心。如果中国真的转换了思路，也许过多少年之后，我们会感谢美国今天做出的限制决定，庆幸它促使中国早一点恢复了清醒。
-> 
-> 一旦中国加速研发使用国产芯片的工作全面上路，美国方面的态度也将随之软下来。美国半导体产品还可以进入中国，但到那时主动权将牢牢掌握在我们自己的手里。
 
 ## 工具
 
@@ -175,15 +127,6 @@ Braille Neue 是布里叶盲文系统与正常字母的结合，无障碍设计�
 
 水母版的《超级马里奥》网页游戏，所有东西都会像水母一样升缩。
 
-__4、小狗 USB__
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042309.jpg)
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042310.jpg)
-
-## 本周金句
-
-人生就像玻璃窗上的苍蝇，前途一片光明，却找不到出路。
 
 ## 欢迎订阅
 
