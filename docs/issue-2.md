@@ -24,12 +24,6 @@
 
 2017年12月9日，甜甜被一名28岁的老挝籍代孕妈妈带到这个世界，现在生活在宜兴。"我出生的时候，父母已经去世了"，变成现实了。
 
-2、[Go 语言的新 Logo](https://blog.golang.org/go-brand)
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042803.jpg)
-
-
-Go 编程语言发布新的 Logo， 很有现代感。大家往往忽略，编程语言其实也存在市场竞争，只有注意包装自己的语言才有更好的市场份额，从而得到更大的社区、更多的资源。
 
 3、[Flutter 框架发布 Beta 版](https://developers.googleblog.com/2018/02/announcing-flutter-beta-1.html)
 
@@ -70,9 +64,6 @@ Oracle 发布了一个很神奇的产品 [GraalVM](http://www.graalvm.org/)。�
 
 ## 教程
 
-1、[电子书] [A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro/readme.html)
-
-Rust 语言入门教程
 
 2、[电子书] [D3 Graph Theory](https://mrpandey.github.io/d3graphTheory/index.html)
 
@@ -103,6 +94,7 @@ Rust 语言入门教程
 Uber 架构师分享在搭建分布式支付系统过程中，遇到的最重要的几个概念：SLA、scaling、Consistency、Durability、Idempotency等。
 
 8、[电子书] [解谜计算机科学](http://www.yinwang.org/blog-cn/2018/04/13/csbook-chapter1)
+× 链接和博客已经失效
 
 王垠正在写的新书，目前只公布了第一章。
 
@@ -118,9 +110,6 @@ Uber 架构师分享在搭建分布式支付系统过程中，遇到的最重要
 
  一个简洁、好看的 CSS 框架，压缩后只有5.28KB。
 
-2、[ReactOS](https://github.com/reactos/reactos)
-
-ReactOS 是一个开源的操作系统，目标是兼容 Windows，能够运行 Windows 的应用程序和驱动程序。它只能安装在 FAT16 或者 FAT32 的硬盘分区上面。
 
 3、[Remote Browser](https://github.com/intoli/remote-browser)
 
@@ -146,13 +135,7 @@ ReactOS 是一个开源的操作系统，目标是兼容 Windows，能够运行 
 
 > RSUITE（React Suite）是一套用于企业系统产品的 React 组件库。由 HYPERS 前端团队和 UX 团队共同构建，主要服务于公司的大数据产品。
 
-## 文摘
 
-1、[网易丁磊专访](https://finance.sina.cn/usstock/mggd/2018-04-11/detail-ifyzeyqa6917956.d.html)
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042816.jpg)
-
-> 全世界网游市场排名是：中国、美国、日本、其他国家。第四到第十的市场全部加起来还没有日本大，而中国占了整个市场的三成到四成。我们的游戏在日本排第一，它的一天收入只是中国的十分之一。
 
 2、[黑产和大数据风控之间的攻守之战](https://xw.qq.com/cmsid/20180413A1LJBD)
 
@@ -169,43 +152,9 @@ ReactOS 是一个开源的操作系统，目标是兼容 Windows，能够运行 
 > 
 > 下面我举出六个 Markdown 的痛点，希望我们能够考虑修改 Markdown 的语法，让它变得更简单一些。
 
-4、[中兴通信的"卧底"律师](https://wallstreetcn.com/articles/3286099)
-
-> 2011年，伊朗电信公司高管在接受采访时炫耀："西方制裁对伊朗通讯行业完全没效果，我们依然能获得全球最新通讯技术"。吹牛X要遭雷劈，只是伊朗人吹的牛，"遭雷劈"的是中兴。
-> 
-> 2011年10月，中兴通信聘请39岁的 Ashley Kyle Yablon 担任中兴美国分公司的法律总顾问，帮助规避美国的法律，使得它可以偷偷与伊朗做生意，又不被美国发现。
-> 
-> 
-> 
-> ![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042815.jpg)
-> 
-> 
-> 结果，这位 Yablon 先生是 FBI 的卧底，偷偷把绝密文件都交出去。美国政府根据这些文件，宣布重罚中兴。
-
-## 电影
-
-4月2日，日本吉卜力動畫工作室创始人之一的高畑勲导演去世，享年82岁。
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042817.jpg)
 
 
-他最著名的作品是动画电影《螢火蟲之墓》，1988年上映。电影海报上，哥哥清太和妹妹節子在夜晚的草叢中，滿滿黃色亮光，呼應螢火蟲像星星一樣飛舞，哥哥望著張嘴大笑的妹妹，畫面溫馨。
 
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042818.jpg)
-
-不過，你把海报的亮度调高，就可以看到，原來夜空中有一架B29轟炸機正在飛行，天空中的黃色亮點其實是燃燒彈的火光。
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042819.jpg)
-
-《螢火蟲之墓》改編自日本作家野坂昭如的半自傳小說，背景是第二次世界大战的神戶空襲，讲述作者失去妹妹的悲伤故事。
-
-## 本周图片
-
-一位台湾网友下班回家，累得倒在沙发上，心想休息一会再去喂狗，结果眼睛一闭睡着了。等醒来，发现狗狗正居高临下，盯着他看，仿佛在说："你到底什么时候给我吃的？"
-
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042820.jpg)
-
-这表情像不像产品经理找到程序员，"需求还要多久才能做完？"
 
 ## 欢迎订阅
 
